@@ -126,8 +126,9 @@ class speedmath:
 
     @staticmethod
     def speedmath_Help():
-        with open("HELPFILE", 'r') as f:
+        with open("HELPFILE", 'w+') as f:
             f.read()
+
 if __name__ == "__main__":
     try:
         inum = int(input("Num:"))
