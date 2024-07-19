@@ -127,7 +127,8 @@ class speedmath:
     @staticmethod
     def speedmath_Help():
         with open("HELPFILE", 'w+') as f:
-            f.read()
+            fread = f.read()
+            print(fread)
 
 if __name__ == "__main__":
     try:
